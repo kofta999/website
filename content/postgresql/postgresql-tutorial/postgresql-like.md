@@ -51,7 +51,7 @@ The `WHERE` clause in the query contains an expression:
 first_name LIKE 'Jen%'
 ```
 
-The expression consists of the `first_name`, the `LIKE` operator and a literal string that contains a percent sign `(%`). The string `'Jen%'` is called a pattern.
+The expression consists of the `first_name`, the `LIKE` operator and a literal string that contains a percent sign (`%`). The string `'Jen%'` is called a pattern.
 
 The query returns rows whose values in the `first_name` column begin with `Jen` and are followed by any sequence of characters. This technique is called pattern matching.
 
